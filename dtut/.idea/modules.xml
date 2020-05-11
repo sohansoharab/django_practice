@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/dtut.iml" filepath="$PROJECT_DIR$/.idea/dtut.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../form_pro/.idea/form_pro.iml" filepath="$PROJECT_DIR$/../form_pro/.idea/form_pro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../scnd_project/.idea/scnd_project.iml" filepath="$PROJECT_DIR$/../scnd_project/.idea/scnd_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../third_pro/.idea/third_pro.iml" filepath="$PROJECT_DIR$/../third_pro/.idea/third_pro.iml" />
+    </modules>
+  </component>
+</project>

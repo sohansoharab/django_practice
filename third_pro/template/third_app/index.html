@@ -1,0 +1,31 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static "css/style.css"%}">
+    <title>{{ title }}</title>
+</head>
+<body>
+<h1>Hello</h1>
+<h2>{{ home_text }}</h2>
+{% if user_info %}
+    <ol>
+        {% for i in user_info %}
+            <li>
+                <h3>User Info:</h3>
+                <ul>
+                    <li><strong>First Name:</strong> {{ i.frst_name }}</li>
+                    <li><strong>Last Name:</strong> {{ i.last_name }}</li>
+                    <li><strong>Email:</strong> {{ i.email }}</li>
+                </ul>
+            </li>
+        {% endfor %}
+    </ol>
+{% endif %}
+
+</body>
+</html>

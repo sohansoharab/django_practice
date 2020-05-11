@@ -1,0 +1,27 @@
+*{
+margin:0;
+padding:0;
+}
+
+body{
+width:85%;
+margin: 0 auto;
+background-color: #eeeeee;
+}
+
+h1{
+color: #333333;
+padding: 20px 0;
+}
+
+table{
+border: 1px solid black;
+display: block;
+background-color: #fff;
+}
+thead, tr{
+width:100%;
+}
+td,th{
+width:50%;
+}
